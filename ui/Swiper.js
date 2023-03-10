@@ -15,8 +15,6 @@ import "swiper/css";
 
 import SwiperStyles from "../styles/Swiper.module.css";
 import slide1 from "../images/desktop/slide1.png";
-import slide2 from "../images/desktop/slide2.png";
-import slide4 from "../images/desktop/slide5.png";
 
 // import required modules
 
@@ -39,13 +37,13 @@ const SwiperComponent = () => {
           className={SwiperStyles.swiper}
         >
           <SwiperSlide className={SwiperStyles.swiper_slide}>
-            <Image src={slide2} alt="/" width="auto" height="600"></Image>
+            <Image src={slide1} alt="/" width="auto" height="600"></Image>
           </SwiperSlide>
           <SwiperSlide className={SwiperStyles.swiper_slide}>
             <Image src={slide1} alt="/" width="auto" height="600"></Image>
           </SwiperSlide>
           <SwiperSlide className={SwiperStyles.swiper_slide}>
-            <Image src={slide4} alt="/" width="auto" height="600"></Image>
+            <Image src={slide1} alt="/" width="auto" height="600"></Image>
           </SwiperSlide>
         </Swiper>
       </div>
