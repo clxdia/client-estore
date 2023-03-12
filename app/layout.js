@@ -3,7 +3,6 @@ import "../styles/globals.css";
 import Footer from "../ui/Footer";
 import HeaderComponent from "../ui/HeaderComponent";
 import bannerMB from "../images/mobile/banner.png";
-import banner from "../images/desktop/banner2.png";
 
 export default function RootLayout({ children }) {
   return (
@@ -13,7 +12,7 @@ export default function RootLayout({ children }) {
         <HeaderComponent />
         <div className="md:pt-[10rem] pt-[5rem] ">{children}</div>
         <Image src={bannerMB} alt="/" className=" md:hidden mt-10" />
-        <Image src={banner} alt="/" className=" md:block hidden mt-10" />
+        <Image src={bannerMB} alt="/" className=" md:block hidden mt-10" />
         <Footer />
       </body>
     </html>
